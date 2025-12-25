@@ -1,25 +1,25 @@
-# Cybersecurity Engineer: Defensive Toolkit 🔐
+# 🛡️ Defensive-Toolkit
+A comprehensive suite for system hardening and automated threat detection.
 
-Author: **Zayne Bowen**
+![License](https://img.shields.io/github/license/Minthol12/Defensive-Toolkit)
+![Issues](https://img.shields.io/github/issues/Minthol12/Defensive-Toolkit)
 
-This is a defensive/educational toolkit designed for **local system auditing**.  
-⚠️ **Use responsibly on systems you own or have permission to test.**
+## 📖 Overview
+Defensive-Toolkit is a collection of scripts designed to streamline the process of securing Linux/Unix environments. It automates repetitive security tasks, allowing security analysts to focus on high-level threat hunting.
 
-## ✨ Features
-- 🔎 Local-only port scan (safe banner grabs)
-- 🔑 Password audit (entropy + common password checks)
-- 📜 Log file audit (detects failed auth attempts & suspicious clusters)
-- 📂 File integrity snapshots (SHA-256 hashes)
-- 📊 Snapshot comparison
-- 📑 HTML report generation
-- 🖥️ Two modes:
-  - **CLI mode** (subcommands)
-  - **Interactive menu mode**
+### 🚀 Key Features
+Automated Hardening: Rapidly applies CIS benchmarks to system configurations.
+Network Monitoring: Integrated tools for real-time traffic analysis.
+Log Auditing: Parses system logs to identify failed login attempts and suspicious sudo activity.
+Vulnerability Scanning: (Add specific tool or feature here, e.g., "Integrates Nmap scripts for local service auditing").
 
-## 📦 Installation
-Clone this repo and install dependencies:
+## 🛠️ Tech Stack
+Language: Python 3.x / Bash
+Security Tools: (e.g., UFW, Fail2Ban, Auditd)
+Environment: Linux (Ubuntu/Debian preferred)
 
-```bash
-git clone https://github.com/<>/CybersecurityToolkit.git
-cd CybersecurityToolkit
-pip install -r requirements.txt
+## 💻 Getting Started
+1. Clone the repo:
+   ```bash
+   git clone [https://github.com/Minthol12/Defensive-Toolkit.git](https://github.com/Minthol12/Defensive-Toolkit.git)
+   
